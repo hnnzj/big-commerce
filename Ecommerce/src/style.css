@@ -1,0 +1,39 @@
+.fem {
+    height: 400px;
+    width: 400px;
+    background-color: pink;
+}
+.mas {
+    height: 400px;
+    width: 400px;
+    background-color: rgb(244, 47, 80);
+}
+.uni {
+    height: 400px;
+    width: 400px;
+    background-color: rgb(59, 3, 12);
+}
+
+.padre {
+    position: relative;
+    height: calc(100vh - 56px);
+}
+
+.hijo {
+    position: absolute;
+    bottom: 450px;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+}
+
+.item {
+    flex-basis: 33%;
+}
+
+.onHover:hover {
+    box-shadow: 10px 10px 5px -4px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px -4px rgba(0, 0, 0, 0.75);
+}
